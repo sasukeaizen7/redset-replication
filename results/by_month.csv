@@ -1,0 +1,7 @@
+variant,month,queries,pct_select,pct_rw,pct_runtime_rw,pct_cached
+provisioned,2024-03,141421800,29.31,56.3,66.08,10.7
+provisioned,2024-04,147494144,33.4,53.61,65.48,12.08
+provisioned,2024-05,144191787,28.66,57.63,65.71,9.1
+serverless,2024-03,2543533,40.02,53.02,50.38,3.83
+serverless,2024-04,3148071,25.85,66.03,62.26,3.69
+serverless,2024-05,2552777,28.09,58.62,67.4,6.45

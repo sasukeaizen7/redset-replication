@@ -1,0 +1,10 @@
+data/
+*.duckdb
+.venv/
+results_sample/
+__pycache__/
+.pytest_cache/
+figures_sample/
+report/*.aux
+report/*.log
+report/*.out

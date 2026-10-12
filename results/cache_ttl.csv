@@ -1,0 +1,19 @@
+variant,ttl_label,ttl_s,hits,hit_pct,saved_runtime_pct
+provisioned,1 s,1.0,31085164,23.54,5.59
+provisioned,10 s,10.0,54015220,40.91,7.25
+provisioned,1 min,60.0,64029416,48.5,9.37
+provisioned,10 min,600.0,74391320,56.34,14.91
+provisioned,1 h,3600.0,78963597,59.81,19.75
+provisioned,6 h,21600.0,81824638,61.97,22.91
+provisioned,1 day,86400.0,82669650,62.61,24.04
+provisioned,1 week,604800.0,83118650,62.95,24.57
+provisioned,unlimited,1000000000000.0,83354659,63.13,25.06
+serverless,1 s,1.0,47022,1.84,0.06
+serverless,10 s,10.0,166613,6.54,0.59
+serverless,1 min,60.0,312760,12.27,2.04
+serverless,10 min,600.0,688390,27.01,11.89
+serverless,1 h,3600.0,839404,32.93,16.15
+serverless,6 h,21600.0,898963,35.27,16.9
+serverless,1 day,86400.0,965063,37.86,17.31
+serverless,1 week,604800.0,983907,38.6,17.55
+serverless,unlimited,1000000000000.0,984401,38.62,17.57

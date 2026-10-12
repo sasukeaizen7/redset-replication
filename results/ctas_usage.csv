@@ -1,0 +1,9 @@
+variant,readers,creations,pct
+provisioned,0,6264335,24.72
+provisioned,1,2055665,8.11
+provisioned,2-5,14926222,58.89
+provisioned,>5,2097818,8.28
+serverless,0,71851,53.73
+serverless,1,17733,13.26
+serverless,2-5,35020,26.19
+serverless,>5,9129,6.83

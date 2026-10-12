@@ -1,0 +1,3 @@
+variant,selects,real_hit_pct,ideal_hit_pct,real_saved_runtime_pct,ideal_saved_runtime_pct,pct_real_hits_that_model_calls_hit,pct_ideal_hits_really_cached,repeating_pct
+provisioned,132029031,33.57,63.13,8.35,25.06,97.45,51.81,92.87
+serverless,2548837,14.81,38.62,1.25,17.57,99.14,38.02,92.92

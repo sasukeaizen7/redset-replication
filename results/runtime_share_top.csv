@@ -1,0 +1,3 @@
+variant,pct_queries_over_1h,pct_runtime_over_1h,pct_queries_under_100ms,pct_queries_under_1min,pct_runtime_under_1min
+provisioned,0.0047,12.69,62.4,99.39,34.4
+serverless,0.0386,30.8,40.08,97.62,23.24

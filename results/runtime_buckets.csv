@@ -1,0 +1,19 @@
+variant,bucket,runtime_bucket,queries,pct_queries,pct_runtime
+provisioned,1,"(0s, 10ms]",120810182,27.8938,0.04
+provisioned,2,"(10ms, 100ms]",149444324,34.5051,0.51
+provisioned,3,"(100ms, 1s]",101369146,23.4051,3.07
+provisioned,4,"(1s, 10s]",49074427,11.3308,12.26
+provisioned,5,"(10s, 1min]",9750300,2.2512,18.52
+provisioned,6,"(1min, 10min]",2429277,0.5609,31.73
+provisioned,7,"(10min, 1h]",209509,0.0484,21.19
+provisioned,8,"(1h, 10h]",20362,0.0047,11.74
+provisioned,9,>= 10h,204,0.0,0.95
+serverless,1,"(0s, 10ms]",720657,8.7412,0.0
+serverless,2,"(10ms, 100ms]",2583287,31.3339,0.09
+serverless,3,"(100ms, 1s]",2335922,28.3335,0.81
+serverless,4,"(1s, 10s]",1785501,21.6572,7.92
+serverless,5,"(10s, 1min]",622423,7.5497,14.41
+serverless,6,"(1min, 10min]",180285,2.1868,27.49
+serverless,7,"(10min, 1h]",13123,0.1592,18.47
+serverless,8,"(1h, 10h]",3111,0.0377,26.16
+serverless,9,>= 10h,72,0.0009,4.64

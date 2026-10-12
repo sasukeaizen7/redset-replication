@@ -1,0 +1,9 @@
+benchmark,query_type,statements,pct_queries
+TPC-H,select,22,75.86
+TPC-H,copy,3,10.34
+TPC-H,insert,2,6.9
+TPC-H,delete,2,6.9
+TPC-DS,select,99,79.2
+TPC-DS,copy,12,9.6
+TPC-DS,insert,7,5.6
+TPC-DS,delete,7,5.6

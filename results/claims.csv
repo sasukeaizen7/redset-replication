@@ -1,0 +1,31 @@
+section,claim,paper,provisioned,serverless,unit,verdict,why
+3.2,Queries that are selects,48.9,30.48,30.92,%,not,fewer selects than in the paper: writes dominate the query count even more
+3.2,"Runtime spent in writes (insert, copy, delete, update, CTAS)",66.8,65.77,60.81000000000001,%,confirmed,"about two thirds of the runtime goes to writes, as in the paper"
+3.3,Runtime spent in CTAS,16.4,26.5,3.63,%,partial,provisioned: even larger; serverless: small
+3.4,Queries under 100 ms,62.0,62.3989,40.0751,%,confirmed,provisioned matches; serverless queries are slower
+3.4,Runtime in queries over 1 h,15.9,12.69,30.8,%,confirmed,"a tiny share of queries (< 0.05 %) takes a large share of runtime (the paper's text says ~25 %, its Table 3 15.9 %)"
+4.3,Runtime tail: p99.9 / median,2030.0,7483.0,7066.0,x,confirmed,an even longer tail
+3.4,Scans per executed query,2.03,1.31,0.74,,partial,fewer scans per query; joins per query match (next row)
+3.4,Joins per executed query,0.53,0.52,0.56,,confirmed,
+4.1,Fleet daily spikiness (March),0.12,0.1116,0.1548,,confirmed,the aggregated fleet is stable from day to day
+4.2,Fleet hourly spikiness (March),0.09,0.1074,0.1262,,confirmed,
+4.1,"Clusters at most as spiky as the paper's C2 (daily, 0.28)",75.0,50.0,12.5,%,partial,single clusters are spikier than in the paper; serverless far more
+4.4,Repeated queries in the median cluster (month),80.0,78.972,54.545,%,confirmed,provisioned matches (fingerprint proxy); serverless repeats less
+4.4,"Fingerprints of long queries (10 min-10 h) that repeat, median cluster",,81.988,87.3355,%,confirmed,long-running queries repeat (the paper: 'almost always'); very short ones much less (next row)
+4.4,"Same, for queries under 10 ms",,32.4005,49.704,%,confirmed,
+4.4,"Median gap between repeats of a select, median cluster",100.0,41.9745,35.4521,s,confirmed,under 100 s per cluster; per individual query the median gap is minutes (next row)
+4.4,"Median gap between repeats, median repeating query",,599.389259,278.08766049999997,s,n/a,the paper's sentence can be read per cluster or per query
+4.4,Longest median repeat gap of a cluster,12.0,1.0015530810185185,2.6534363645833334,days,not,1-3 days instead of 12
+4.6,Selects that repeat a previous select,80.0,92.87,92.92,%,confirmed,"more repetition, as expected from a fingerprint (it overestimates)"
+4.6,Selects answered by the real result cache,20.0,33.57,14.81,%,partial,the paper does not give the denominator; over all queries Redset gives 10.6 % / 4.6 %
+4.6,Repeating selects that still miss the cache,60.0,63.852697318832774,84.06155832974602,%,confirmed,
+4.6,  of those misses: reads system tables,14.0,12.42327150084317,51.24567917040071,%,partial,serverless: far more
+4.6,  of those misses: reads external tables,4.0,3.264755480607082,3.6589425169632572,%,confirmed,
+4.6,  of those misses: a table was written since,54.0,24.822934232715006,5.9044936627832545,%,partial,fewer write invalidations; the rest are ideal hits the real cache missed (see the extension)
+3.3,CTAS statements run once in a week,66.0,70.77,66.32,%,confirmed,same CTAS fingerprint = same table (ids are fresh)
+3.3,CTAS tables read by exactly one query,80.0,8.11,13.26,%,not,"most are read by 2-5 queries, a quarter (provisioned) by none"
+3.3,Queries reading a CTAS-created table,40.0,17.65,2.76,%,not,
+4.5,Distinct table sets in a busy cluster-month (10 sampled),23.5,5884.2,,count,not,thousands even after dropping short-lived tables (all tables: tens of thousands)
+5.2,Tables with inserts and no deletes the same day,80.0,76.86,79.1,%,confirmed,
+5.2,Tables with deletes and no inserts the same day,30.0,19.47,1.41,%,partial,deletes mostly come with inserts
+3.4,"Runtime spread, p90 / median (TPC-H 22 queries in DuckDB SF 10: 3.6x)",,38.0,50.93333333333333,x,confirmed,"real workloads spread over orders of magnitude, TPC queries do not"

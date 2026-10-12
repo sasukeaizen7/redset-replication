@@ -1,0 +1,3 @@
+variant,queries,clusters,users,first_day,last_day,pct_with_fingerprint,pct_with_read_tables,pct_with_write_tables,pct_with_plan_stats,pct_cached,pct_cached_restored_as_select,pct_aborted,dropped_outside_period
+provisioned,433107731,200,190196,2024-03-01,2024-05-30,98.07,76.88,56.83,100.0,10.63,96.23,0.51,80
+serverless,8244381,200,2412,2024-03-01,2024-05-30,99.62,44.03,62.22,100.0,4.59,99.77,0.91,1

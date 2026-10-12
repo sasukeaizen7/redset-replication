@@ -1,0 +1,17 @@
+variant,scope,runtime_bucket,queries,scans,joins,aggregations
+provisioned,all,"(0s, 1s)",325545379,1.1,0.31,2.12
+provisioned,all,"[1s, 60s)",58847237,2.16,1.45,3.13
+provisioned,all,"[60s, inf)",2659393,7.76,6.52,8.6
+provisioned,all,,387052009,1.31,0.52,2.32
+provisioned,select,"(0s, 1s)",71479281,1.31,0.41,2.06
+provisioned,select,"[1s, 60s)",15521174,3.16,2.57,3.88
+provisioned,select,"[60s, inf)",707867,8.55,9.62,10.15
+provisioned,select,,87708322,1.7,0.87,2.45
+serverless,all,"(0s, 1s)",5260819,0.53,0.17,2.07
+serverless,all,"[1s, 60s)",2408616,1.05,1.32,2.66
+serverless,all,"[60s, inf)",196592,2.31,1.91,2.68
+serverless,all,,7866027,0.74,0.56,2.27
+serverless,select,"(0s, 1s)",604692,1.38,0.58,2.54
+serverless,select,"[1s, 60s)",1463039,1.09,1.86,2.98
+serverless,select,"[60s, inf)",103623,2.41,1.6,2.8
+serverless,select,,2171354,1.23,1.49,2.85

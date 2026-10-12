@@ -1,0 +1,13 @@
+variant,change,table_months,pct
+provisioned,created by CTAS,25344040,54.3
+provisioned,inserts only,14402703,30.86
+provisioned,inserts and deletes,3785154,8.11
+provisioned,no insert/delete/update,3133925,6.71
+provisioned,deletes only,9876,0.02
+provisioned,updates only,2593,0.01
+serverless,inserts only,690177,68.42
+serverless,inserts and deletes,140971,13.97
+serverless,created by CTAS,133733,13.26
+serverless,no insert/delete/update,43231,4.29
+serverless,deletes only,596,0.06
+serverless,updates only,60,0.01

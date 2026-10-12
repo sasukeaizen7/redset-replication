@@ -1,0 +1,397 @@
+series,variant,q,ms
+any select (per cluster),provisioned,0.01,8.732024999999998
+any select (per cluster),provisioned,0.02,13.4937
+any select (per cluster),provisioned,0.03,39.84725
+any select (per cluster),provisioned,0.04,61.726900000000015
+any select (per cluster),provisioned,0.05,105.422
+any select (per cluster),provisioned,0.06,147.8909
+any select (per cluster),provisioned,0.07,156.20565000000002
+any select (per cluster),provisioned,0.08,160.0468
+any select (per cluster),provisioned,0.09,167.25054999999998
+any select (per cluster),provisioned,0.1,183.6055
+any select (per cluster),provisioned,0.11,195.50852500000002
+any select (per cluster),provisioned,0.12,202.99380000000002
+any select (per cluster),provisioned,0.13,209.16915
+any select (per cluster),provisioned,0.14,211.3613
+any select (per cluster),provisioned,0.15,234.39600000000002
+any select (per cluster),provisioned,0.16,240.5247
+any select (per cluster),provisioned,0.17,244.34410000000003
+any select (per cluster),provisioned,0.18,251.20585000000003
+any select (per cluster),provisioned,0.19,258.759675
+any select (per cluster),provisioned,0.2,274.85450000000003
+any select (per cluster),provisioned,0.21,284.87405
+any select (per cluster),provisioned,0.22,293.7735
+any select (per cluster),provisioned,0.23,303.23855000000003
+any select (per cluster),provisioned,0.24,308.26259999999996
+any select (per cluster),provisioned,0.25,318.60925
+any select (per cluster),provisioned,0.26,335.07319999999993
+any select (per cluster),provisioned,0.27,348.39875000000006
+any select (per cluster),provisioned,0.28,354.67359999999996
+any select (per cluster),provisioned,0.29,413.02149999999995
+any select (per cluster),provisioned,0.3,444.385
+any select (per cluster),provisioned,0.31,502.9456
+any select (per cluster),provisioned,0.32,518.5584000000001
+any select (per cluster),provisioned,0.33,540.7761
+any select (per cluster),provisioned,0.34,568.8425000000002
+any select (per cluster),provisioned,0.35,582.31325
+any select (per cluster),provisioned,0.36,603.3753999999999
+any select (per cluster),provisioned,0.37,659.0500000000002
+any select (per cluster),provisioned,0.38,716.8706999999999
+any select (per cluster),provisioned,0.39,742.952475
+any select (per cluster),provisioned,0.4,767.067
+any select (per cluster),provisioned,0.41,859.639425
+any select (per cluster),provisioned,0.42,914.41695
+any select (per cluster),provisioned,0.43,986.2919499999998
+any select (per cluster),provisioned,0.44,1117.7947000000001
+any select (per cluster),provisioned,0.45,1153.6165
+any select (per cluster),provisioned,0.46,1232.1469000000004
+any select (per cluster),provisioned,0.47,1266.61195
+any select (per cluster),provisioned,0.48,1289.8198
+any select (per cluster),provisioned,0.49,1425.7367249999986
+any select (per cluster),provisioned,0.5,1663.797
+any select (per cluster),provisioned,0.51,1812.1809500000002
+any select (per cluster),provisioned,0.52,1913.8396000000002
+any select (per cluster),provisioned,0.53,2010.7223500000005
+any select (per cluster),provisioned,0.54,2075.0179000000003
+any select (per cluster),provisioned,0.55,2122.931375
+any select (per cluster),provisioned,0.56,2157.9516000000003
+any select (per cluster),provisioned,0.57,2250.8309999999988
+any select (per cluster),provisioned,0.58,2372.8291
+any select (per cluster),provisioned,0.59,2605.0418749999994
+any select (per cluster),provisioned,0.6,2689.896
+any select (per cluster),provisioned,0.61,3109.146999999998
+any select (per cluster),provisioned,0.62,3372.5976000000005
+any select (per cluster),provisioned,0.63,3524.0710249999997
+any select (per cluster),provisioned,0.64,3675.7376000000013
+any select (per cluster),provisioned,0.65,4050.5988749999997
+any select (per cluster),provisioned,0.66,4421.337600000002
+any select (per cluster),provisioned,0.67,5812.358850000004
+any select (per cluster),provisioned,0.68,6453.0209
+any select (per cluster),provisioned,0.69,6750.209699999999
+any select (per cluster),provisioned,0.7,8186.844999999999
+any select (per cluster),provisioned,0.71,8908.562774999999
+any select (per cluster),provisioned,0.72,9708.7348
+any select (per cluster),provisioned,0.73,10059.199699999974
+any select (per cluster),provisioned,0.74,11886.586200000002
+any select (per cluster),provisioned,0.75,13029.079999999998
+any select (per cluster),provisioned,0.76,14781.266299999996
+any select (per cluster),provisioned,0.77,15877.197125
+any select (per cluster),provisioned,0.78,15989.1695
+any select (per cluster),provisioned,0.79,16189.015350000003
+any select (per cluster),provisioned,0.8,17268.635000000002
+any select (per cluster),provisioned,0.81,19636.05670000005
+any select (per cluster),provisioned,0.82,24025.554049999995
+any select (per cluster),provisioned,0.83,24787.361149999986
+any select (per cluster),provisioned,0.84,27483.926200000016
+any select (per cluster),provisioned,0.85,30209.189124999997
+any select (per cluster),provisioned,0.86,33264.73664999999
+any select (per cluster),provisioned,0.87,40185.454274999924
+any select (per cluster),provisioned,0.88,43739.825200000014
+any select (per cluster),provisioned,0.89,50274.11475000002
+any select (per cluster),provisioned,0.9,68457.3265
+any select (per cluster),provisioned,0.91,82044.06959999994
+any select (per cluster),provisioned,0.92,96885.24600000054
+any select (per cluster),provisioned,0.93,125256.67030000043
+any select (per cluster),provisioned,0.94,183130.34344999946
+any select (per cluster),provisioned,0.95,208357.53425
+any select (per cluster),provisioned,0.96,218679.24
+any select (per cluster),provisioned,0.97,456175.1155249984
+any select (per cluster),provisioned,0.98,850310.9240999927
+any select (per cluster),provisioned,0.99,2483408.35510003
+any select (per cluster),serverless,0.01,126.89651000000002
+any select (per cluster),serverless,0.02,388.41317999999995
+any select (per cluster),serverless,0.03,535.28631
+any select (per cluster),serverless,0.04,812.7649600000002
+any select (per cluster),serverless,0.05,1082.4285
+any select (per cluster),serverless,0.06,1249.17057
+any select (per cluster),serverless,0.07,1392.5668550000003
+any select (per cluster),serverless,0.08,1430.188
+any select (per cluster),serverless,0.09,1799.1791500000002
+any select (per cluster),serverless,0.1,1871.7392000000002
+any select (per cluster),serverless,0.11,2032.4110699999999
+any select (per cluster),serverless,0.12,2101.8652
+any select (per cluster),serverless,0.13,2255.99374
+any select (per cluster),serverless,0.14,2280.00604
+any select (per cluster),serverless,0.15,2290.05
+any select (per cluster),serverless,0.16,2345.5610400000005
+any select (per cluster),serverless,0.17,2445.4873499999994
+any select (per cluster),serverless,0.18,2520.1005999999993
+any select (per cluster),serverless,0.19,2667.2851199999996
+any select (per cluster),serverless,0.2,2844.5028000000007
+any select (per cluster),serverless,0.21,3027.9262350000004
+any select (per cluster),serverless,0.22,3028.22373
+any select (per cluster),serverless,0.23,3091.7083000000002
+any select (per cluster),serverless,0.24,3182.91488
+any select (per cluster),serverless,0.25,3252.8907499999996
+any select (per cluster),serverless,0.26,3694.8577199999995
+any select (per cluster),serverless,0.27,3872.0400600000003
+any select (per cluster),serverless,0.28,4317.10548
+any select (per cluster),serverless,0.29,4501.183949999999
+any select (per cluster),serverless,0.3,4915.0773
+any select (per cluster),serverless,0.31,5174.0868249999985
+any select (per cluster),serverless,0.32,5505.70112
+any select (per cluster),serverless,0.33,5534.78273
+any select (per cluster),serverless,0.34,5822.9590800000005
+any select (per cluster),serverless,0.35,6102.173449999999
+any select (per cluster),serverless,0.36,6357.96344
+any select (per cluster),serverless,0.37,7635.447285
+any select (per cluster),serverless,0.38,8077.390409999999
+any select (per cluster),serverless,0.39,8344.0504
+any select (per cluster),serverless,0.4,8850.4924
+any select (per cluster),serverless,0.41,9108.175015
+any select (per cluster),serverless,0.42,9817.874699999997
+any select (per cluster),serverless,0.43,10694.387524999998
+any select (per cluster),serverless,0.44,12300.411080000005
+any select (per cluster),serverless,0.45,13124.255775000003
+any select (per cluster),serverless,0.46,13774.917420000003
+any select (per cluster),serverless,0.47,15552.06973999998
+any select (per cluster),serverless,0.48,18770.52508
+any select (per cluster),serverless,0.49,19786.719729999997
+any select (per cluster),serverless,0.5,20673.208
+any select (per cluster),serverless,0.51,24447.170919999997
+any select (per cluster),serverless,0.52,27095.27968
+any select (per cluster),serverless,0.53,27385.294315
+any select (per cluster),serverless,0.54,28017.266890000003
+any select (per cluster),serverless,0.55,28451.89575
+any select (per cluster),serverless,0.56,28593.267880000003
+any select (per cluster),serverless,0.57,28747.86133
+any select (per cluster),serverless,0.58,28963.0602
+any select (per cluster),serverless,0.59,29244.84592
+any select (per cluster),serverless,0.6,29552.145999999993
+any select (per cluster),serverless,0.61,29974.050659999997
+any select (per cluster),serverless,0.62,31028.38491999999
+any select (per cluster),serverless,0.63,31876.861900000004
+any select (per cluster),serverless,0.64,35048.005320000004
+any select (per cluster),serverless,0.65,35517.576525
+any select (per cluster),serverless,0.66,36123.337530000004
+any select (per cluster),serverless,0.67,37058.43853
+any select (per cluster),serverless,0.68,37581.9298
+any select (per cluster),serverless,0.69,37813.455239999996
+any select (per cluster),serverless,0.7,38171.53855
+any select (per cluster),serverless,0.71,38444.83582
+any select (per cluster),serverless,0.72,39112.83554
+any select (per cluster),serverless,0.73,39239.776925
+any select (per cluster),serverless,0.74,40697.89243
+any select (per cluster),serverless,0.75,42073.6955
+any select (per cluster),serverless,0.76,43105.431019999996
+any select (per cluster),serverless,0.77,43889.877745
+any select (per cluster),serverless,0.78,45281.00233999999
+any select (per cluster),serverless,0.79,45842.324615000005
+any select (per cluster),serverless,0.8,48367.43790000003
+any select (per cluster),serverless,0.81,52824.49181000004
+any select (per cluster),serverless,0.82,55516.013469999976
+any select (per cluster),serverless,0.83,61179.60005499997
+any select (per cluster),serverless,0.84,68514.42087999996
+any select (per cluster),serverless,0.85,75449.45219999999
+any select (per cluster),serverless,0.86,78085.25139999998
+any select (per cluster),serverless,0.87,82135.48137999998
+any select (per cluster),serverless,0.88,83872.52755999999
+any select (per cluster),serverless,0.89,94038.85919000008
+any select (per cluster),serverless,0.9,102671.46560000004
+any select (per cluster),serverless,0.91,122232.07624
+any select (per cluster),serverless,0.92,123438.89290000004
+any select (per cluster),serverless,0.93,145787.6463450003
+any select (per cluster),serverless,0.94,211008.61253999977
+any select (per cluster),serverless,0.95,226860.3163499999
+any select (per cluster),serverless,0.96,352260.64288000047
+any select (per cluster),serverless,0.97,549470.5062000002
+any select (per cluster),serverless,0.98,605823.11817
+any select (per cluster),serverless,0.99,1630394.3120650006
+repeat (per fingerprint),provisioned,0.01,332.4068
+repeat (per fingerprint),provisioned,0.02,593.35826
+repeat (per fingerprint),provisioned,0.03,825.8333600000001
+repeat (per fingerprint),provisioned,0.04,1057.101
+repeat (per fingerprint),provisioned,0.05,1282.8762000000002
+repeat (per fingerprint),provisioned,0.06,1528.00416
+repeat (per fingerprint),provisioned,0.07,1810.7078000000001
+repeat (per fingerprint),provisioned,0.08,2100.23758
+repeat (per fingerprint),provisioned,0.09,2434.8708
+repeat (per fingerprint),provisioned,0.1,2801.982400000001
+repeat (per fingerprint),provisioned,0.11,3195.7817999999997
+repeat (per fingerprint),provisioned,0.12,3618.3542399999997
+repeat (per fingerprint),provisioned,0.13,4085.0905600000006
+repeat (per fingerprint),provisioned,0.14,4621.604280000001
+repeat (per fingerprint),provisioned,0.15,5231.112999999999
+repeat (per fingerprint),provisioned,0.16,5916.6716400000005
+repeat (per fingerprint),provisioned,0.17,6696.028000000002
+repeat (per fingerprint),provisioned,0.18,7578.61468
+repeat (per fingerprint),provisioned,0.19,8654.439160000002
+repeat (per fingerprint),provisioned,0.2,10183.929900000001
+repeat (per fingerprint),provisioned,0.21,12603.913859999991
+repeat (per fingerprint),provisioned,0.22,15975.230039999993
+repeat (per fingerprint),provisioned,0.23,19969.773640000003
+repeat (per fingerprint),provisioned,0.24,24942.281999999992
+repeat (per fingerprint),provisioned,0.25,30626.729
+repeat (per fingerprint),provisioned,0.26,36877.106960000005
+repeat (per fingerprint),provisioned,0.27,43948.94956000001
+repeat (per fingerprint),provisioned,0.28,51868.15468
+repeat (per fingerprint),provisioned,0.29,60739.361259999976
+repeat (per fingerprint),provisioned,0.3,70644.02219999998
+repeat (per fingerprint),provisioned,0.31,82030.79288000007
+repeat (per fingerprint),provisioned,0.32,90952.33559999999
+repeat (per fingerprint),provisioned,0.33,103413.78386000001
+repeat (per fingerprint),provisioned,0.34,118063.86324000002
+repeat (per fingerprint),provisioned,0.35,134131.94709999987
+repeat (per fingerprint),provisioned,0.36,152293.41056
+repeat (per fingerprint),provisioned,0.37,172554.52507999993
+repeat (per fingerprint),provisioned,0.38,193258.12184
+repeat (per fingerprint),provisioned,0.39,216771.26280000003
+repeat (per fingerprint),provisioned,0.4,245349.67980000054
+repeat (per fingerprint),provisioned,0.41,276734.48397999996
+repeat (per fingerprint),provisioned,0.42,299914.72484000004
+repeat (per fingerprint),provisioned,0.43,316452.20504000003
+repeat (per fingerprint),provisioned,0.44,349496.89499999996
+repeat (per fingerprint),provisioned,0.45,378437.1938000006
+repeat (per fingerprint),provisioned,0.46,425287.79608000006
+repeat (per fingerprint),provisioned,0.47,471345.34531999996
+repeat (per fingerprint),provisioned,0.48,519064.14171999984
+repeat (per fingerprint),provisioned,0.49,565538.92402
+repeat (per fingerprint),provisioned,0.5,599389.2590000001
+repeat (per fingerprint),provisioned,0.51,611937.1406800001
+repeat (per fingerprint),provisioned,0.52,657859.2971200001
+repeat (per fingerprint),provisioned,0.53,714987.20796
+repeat (per fingerprint),provisioned,0.54,789631.8316200001
+repeat (per fingerprint),provisioned,0.55,874847.3480000007
+repeat (per fingerprint),provisioned,0.56,906786.5303200001
+repeat (per fingerprint),provisioned,0.57,987391.6841199999
+repeat (per fingerprint),provisioned,0.58,1103788.6419999998
+repeat (per fingerprint),provisioned,0.59,1194818.7098599998
+repeat (per fingerprint),provisioned,0.6,1201748.6101999998
+repeat (per fingerprint),provisioned,0.61,1267713.18076
+repeat (per fingerprint),provisioned,0.62,1405093.0095800003
+repeat (per fingerprint),provisioned,0.63,1543454.6635599995
+repeat (per fingerprint),provisioned,0.64,1723796.4145400003
+repeat (per fingerprint),provisioned,0.65,1801029.6304000001
+repeat (per fingerprint),provisioned,0.66,1878571.4176
+repeat (per fingerprint),provisioned,0.67,2124337.0698800003
+repeat (per fingerprint),provisioned,0.68,2414661.3633600017
+repeat (per fingerprint),provisioned,0.69,2833351.903779999
+repeat (per fingerprint),provisioned,0.7,3283571.266799991
+repeat (per fingerprint),provisioned,0.71,3568787.0878799995
+repeat (per fingerprint),provisioned,0.72,3596458.56988
+repeat (per fingerprint),provisioned,0.73,3601950.56972
+repeat (per fingerprint),provisioned,0.74,3620186.4957199995
+repeat (per fingerprint),provisioned,0.75,3911111.2739999997
+repeat (per fingerprint),provisioned,0.76,4695922.274240001
+repeat (per fingerprint),provisioned,0.77,5561563.801839992
+repeat (per fingerprint),provisioned,0.78,6841965.33534
+repeat (per fingerprint),provisioned,0.79,7246806.82062
+repeat (per fingerprint),provisioned,0.8,8927439.033400001
+repeat (per fingerprint),provisioned,0.81,11058176.984340006
+repeat (per fingerprint),provisioned,0.82,14029258.298359998
+repeat (per fingerprint),provisioned,0.83,14403121.424280003
+repeat (per fingerprint),provisioned,0.84,15106450.834239999
+repeat (per fingerprint),provisioned,0.85,20415500.53499995
+repeat (per fingerprint),provisioned,0.86,28218715.635239996
+repeat (per fingerprint),provisioned,0.87,39489955.05832002
+repeat (per fingerprint),provisioned,0.88,52202704.811639965
+repeat (per fingerprint),provisioned,0.89,73551565.75904
+repeat (per fingerprint),provisioned,0.9,86240048.31420003
+repeat (per fingerprint),provisioned,0.91,86712086.22324002
+repeat (per fingerprint),provisioned,0.92,122462436.20648003
+repeat (per fingerprint),provisioned,0.93,188060275.35334584
+repeat (per fingerprint),provisioned,0.94,305871707.2153199
+repeat (per fingerprint),provisioned,0.95,479124618.08739924
+repeat (per fingerprint),provisioned,0.96,758370004.075359
+repeat (per fingerprint),provisioned,0.97,1226802474.0757
+repeat (per fingerprint),provisioned,0.98,1900794996.2017202
+repeat (per fingerprint),provisioned,0.99,2960606439.735836
+repeat (per fingerprint),serverless,0.01,415.67935
+repeat (per fingerprint),serverless,0.02,822.2745
+repeat (per fingerprint),serverless,0.03,1197.087225
+repeat (per fingerprint),serverless,0.04,1578.2732
+repeat (per fingerprint),serverless,0.05,1949.85575
+repeat (per fingerprint),serverless,0.06,2350.4583
+repeat (per fingerprint),serverless,0.07,2750.218525
+repeat (per fingerprint),serverless,0.08,3154.6814000000004
+repeat (per fingerprint),serverless,0.09,3571.4154
+repeat (per fingerprint),serverless,0.1,4005.7650000000003
+repeat (per fingerprint),serverless,0.11,4505.5556750000005
+repeat (per fingerprint),serverless,0.12,5020.7366
+repeat (per fingerprint),serverless,0.13,5590.533550000002
+repeat (per fingerprint),serverless,0.14,6181.031700000003
+repeat (per fingerprint),serverless,0.15,6802.0152499999995
+repeat (per fingerprint),serverless,0.16,7482.0877
+repeat (per fingerprint),serverless,0.17,8326.074075000002
+repeat (per fingerprint),serverless,0.18,9357.635899999997
+repeat (per fingerprint),serverless,0.19,10884.83595
+repeat (per fingerprint),serverless,0.2,12634.690999999999
+repeat (per fingerprint),serverless,0.21,14976.706975000001
+repeat (per fingerprint),serverless,0.22,17694.591100000005
+repeat (per fingerprint),serverless,0.23,20984.395899999992
+repeat (per fingerprint),serverless,0.24,24895.89479999999
+repeat (per fingerprint),serverless,0.25,29347.132374999997
+repeat (per fingerprint),serverless,0.26,34149.022700000016
+repeat (per fingerprint),serverless,0.27,38885.46775
+repeat (per fingerprint),serverless,0.28,43209.3908
+repeat (per fingerprint),serverless,0.29,49051.67242499998
+repeat (per fingerprint),serverless,0.3,55469.1305
+repeat (per fingerprint),serverless,0.31,61620.742649999986
+repeat (per fingerprint),serverless,0.32,68689.2498
+repeat (per fingerprint),serverless,0.33,74654.80335000005
+repeat (per fingerprint),serverless,0.34,78649.88645000002
+repeat (per fingerprint),serverless,0.35,82840.96825
+repeat (per fingerprint),serverless,0.36,88415.60249999998
+repeat (per fingerprint),serverless,0.37,97170.39217500002
+repeat (per fingerprint),serverless,0.38,106720.14365
+repeat (per fingerprint),serverless,0.39,116026.50242500001
+repeat (per fingerprint),serverless,0.4,125073.278
+repeat (per fingerprint),serverless,0.41,135990.53572499997
+repeat (per fingerprint),serverless,0.42,148556.42189999996
+repeat (per fingerprint),serverless,0.43,161276.03519999998
+repeat (per fingerprint),serverless,0.44,175767.40860000005
+repeat (per fingerprint),serverless,0.45,189289.64712500002
+repeat (per fingerprint),serverless,0.46,204109.07059999995
+repeat (per fingerprint),serverless,0.47,220612.3838
+repeat (per fingerprint),serverless,0.48,237984.1676
+repeat (per fingerprint),serverless,0.49,255728.14335
+repeat (per fingerprint),serverless,0.5,278087.6605
+repeat (per fingerprint),serverless,0.51,307182.311125
+repeat (per fingerprint),serverless,0.52,340831.8200000001
+repeat (per fingerprint),serverless,0.53,378285.4615500001
+repeat (per fingerprint),serverless,0.54,421019.43425
+repeat (per fingerprint),serverless,0.55,471733.23425
+repeat (per fingerprint),serverless,0.56,528404.3404000006
+repeat (per fingerprint),serverless,0.57,592738.0584499999
+repeat (per fingerprint),serverless,0.58,669621.2883999995
+repeat (per fingerprint),serverless,0.59,753026.7921499996
+repeat (per fingerprint),serverless,0.6,857610.597
+repeat (per fingerprint),serverless,0.61,955960.0012749997
+repeat (per fingerprint),serverless,0.62,1085451.9789999977
+repeat (per fingerprint),serverless,0.63,1237178.0315250002
+repeat (per fingerprint),serverless,0.64,1414362.824
+repeat (per fingerprint),serverless,0.65,1627264.174875
+repeat (per fingerprint),serverless,0.66,1797334.5785500014
+repeat (per fingerprint),serverless,0.67,1966379.8685500002
+repeat (per fingerprint),serverless,0.68,2245437.1518
+repeat (per fingerprint),serverless,0.69,2530422.5294499993
+repeat (per fingerprint),serverless,0.7,2847768.53725
+repeat (per fingerprint),serverless,0.71,3184956.8293999983
+repeat (per fingerprint),serverless,0.72,3502303.5439999998
+repeat (per fingerprint),serverless,0.73,3597625.97745
+repeat (per fingerprint),serverless,0.74,3711099.5452500004
+repeat (per fingerprint),serverless,0.75,4188246.893
+repeat (per fingerprint),serverless,0.76,4824262.401
+repeat (per fingerprint),serverless,0.77,5399818.3366
+repeat (per fingerprint),serverless,0.78,6145157.195800004
+repeat (per fingerprint),serverless,0.79,6989885.15125
+repeat (per fingerprint),serverless,0.8,7335615.976
+repeat (per fingerprint),serverless,0.81,8577579.371425001
+repeat (per fingerprint),serverless,0.82,9896636.093699994
+repeat (per fingerprint),serverless,0.83,11040207.847199995
+repeat (per fingerprint),serverless,0.84,13043638.258199995
+repeat (per fingerprint),serverless,0.85,15127991.9795
+repeat (per fingerprint),serverless,0.86,17600101.549899988
+repeat (per fingerprint),serverless,0.87,20777436.985600002
+repeat (per fingerprint),serverless,0.88,24351017.3238
+repeat (per fingerprint),serverless,0.89,30674887.54415001
+repeat (per fingerprint),serverless,0.9,39133528.26525
+repeat (per fingerprint),serverless,0.91,45333935.764550045
+repeat (per fingerprint),serverless,0.92,57167148.894999996
+repeat (per fingerprint),serverless,0.93,80665564.32937519
+repeat (per fingerprint),serverless,0.94,86146344.81609999
+repeat (per fingerprint),serverless,0.95,86384222.11725
+repeat (per fingerprint),serverless,0.96,86397639.05340001
+repeat (per fingerprint),serverless,0.97,86413899.88640001
+repeat (per fingerprint),serverless,0.98,92352756.45150022
+repeat (per fingerprint),serverless,0.99,268223784.7606457

@@ -1,0 +1,8 @@
+benchmark,runtime_bucket,queries,pct_queries,pct_runtime
+TPC-DS,"(10ms, 100ms]",3,3.03,0.09
+TPC-DS,"(100ms, 1s]",66,66.67,14.38
+TPC-DS,"(1s, 10s]",25,25.25,25.98
+TPC-DS,"(10s, 1min]",5,5.05,59.54
+TPC-H,"(10ms, 100ms]",1,4.55,0.51
+TPC-H,"(100ms, 1s]",15,68.18,36.01
+TPC-H,"(1s, 10s]",6,27.27,63.48

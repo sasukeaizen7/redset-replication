@@ -1,0 +1,21 @@
+variant,grp,query_type,queries,pct_queries,pct_runtime,median_runtime_s,mean_runtime_s
+provisioned,RO,select,132029031,30.48,24.21,0.029,2.208
+provisioned,RO,unload,1952083,0.45,6.68,1.508,41.197
+provisioned,RW,delete,84096248,19.42,3.09,0.007,0.443
+provisioned,RW,insert,67793977,15.65,13.97,0.068,2.481
+provisioned,RW,copy,40809563,9.42,17.04,0.328,5.027
+provisioned,RW,ctas,25392837,5.86,26.5,0.496,12.566
+provisioned,RW,update,23709487,5.47,5.17,0.202,2.627
+provisioned,Sys,maintenance (analyze),44089995,10.18,2.05,0.039,0.561
+provisioned,Sys,other,11105455,2.56,0.56,0.021,0.602
+provisioned,Sys,maintenance (vacuum),2129055,0.49,0.74,0.051,4.185
+serverless,RO,select,2548837,30.92,31.66,2.837,12.091
+serverless,RO,unload,174586,2.12,0.5,0.458,2.784
+serverless,RW,insert,2979711,36.14,25.67,0.065,8.387
+serverless,RW,copy,1052483,12.77,10.54,0.393,9.745
+serverless,RW,delete,739113,8.97,16.77,0.166,22.08
+serverless,RW,ctas,134276,1.63,3.63,1.266,26.278
+serverless,RW,update,18035,0.22,4.2,2.033,226.45
+serverless,Sys,maintenance (analyze),339553,4.12,1.06,0.066,3.043
+serverless,Sys,other,243377,2.95,4.12,0.01,16.467
+serverless,Sys,maintenance (vacuum),14410,0.17,1.86,65.247,125.584
