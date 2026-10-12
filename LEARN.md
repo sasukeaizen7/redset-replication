@@ -1,6 +1,6 @@
 # LEARN: how this replication works, and how to defend it
 
-This file explains the choices behind the code, the traps found in the data, and what to say about them in an interview. The results are in [README.md](README.md) and [report/report.md](report/report.md).
+This file explains the choices behind the code, the traps found in the data, and what to say about them in an interview. The results are in [README.md](README.md).
 
 ## 1. What kind of study this is
 
@@ -25,7 +25,7 @@ src/tpc.py: TPC-H / TPC-DS in DuckDB -> results/tpc_*.csv
 
 - **DuckDB, not Spark.** 441 M rows fit one laptop: DuckDB is columnar, vectorized, and spills to disk when a sort or join does not fit in memory (`memory_limit = 20GB`, `temp_directory = data/tmp`). Building the database takes about 15 minutes; it is read many times afterwards.
 - **One typed table instead of reading Parquet every time.** The fingerprint (a 64-character hex string) is hashed to a 64-bit integer, and the comma-separated table ids are parsed into integer lists. With ~4×10⁸ fingerprints, the chance that two different fingerprints of the *same cluster* collide on 64 bits is negligible (birthday bound ≈ n²/2⁶⁵ ≈ 10⁻³ over the whole trace, and comparisons are always within one cluster).
-- **SQL files with `-- name:` markers** (the same contract as the SQL portfolio): each query's result is a CSV, so every number in the report can be traced to a file and a query. A name starting with `_` is a setup step (a temporary table) and is not saved.
+- **SQL files with `-- name:` markers** (the same contract as the SQL portfolio): each query's result is a CSV, so every number can be traced to a file and a query. A name starting with `_` is a setup step (a temporary table) and is not saved.
 - **Develop on the 1 % sample, conclude on the full data** (`python src/run.py --sample`). Careful: a uniform 1 % sample of *queries* destroys everything that depends on sequences (repetition, cache, CTAS reuse). The sample is only for checking that the SQL runs.
 
 ## 3. Traps found in the data (the best interview stories)

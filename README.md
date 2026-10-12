@@ -6,7 +6,7 @@ In *Why TPC Is Not Enough: An Analysis of the Amazon Redshift Fleet* (VLDB 2024)
 
 This project recomputes the paper's metrics as tested SQL over the **full trace** with DuckDB on one laptop. It compares 29 quantitative claims and adds one analysis the paper does not have: **how much an ideal result cache would save**.
 
-📄 **Report (7 pages):** [report/report.pdf](report/report.pdf) · 🧠 **How it works and how to defend it:** [LEARN.md](LEARN.md)
+🧠 **How it works and how to defend it:** [LEARN.md](LEARN.md)
 
 ![Headline](figures/headline.png)
 
@@ -111,15 +111,12 @@ The commands, in order:
 5. Run TPC-H/TPC-DS SF 10 in DuckDB, then rebuild the scorecard and the figures.
 6. Run the tests on hand-made traces (including the paper's 3/8 repetition example).
 
-The report compiles with `xelatex report.tex` (run twice) from `report/`.
 
 | Folder | What's in it |
 |---|---|
 | `sql/` | `00_prepare.sql` (load + cache-hit restoration), then one file per paper section; each `-- name:` query → `results/<name>.csv` |
 | `src/` | `run.py` (runner), `tpc.py`, `claims.py` (scorecard), `figures.py`, `paper.py` (the paper's published numbers) |
-| `results/`, `figures/` | every number and chart in the report |
-| `report/` | the LaTeX report; `claims.tex` and `numbers.tex` are generated |
-| `linkedin/` | the post |
+| `results/`, `figures/` | every number and chart |
 
 ## Credits and license
 
