@@ -24,6 +24,6 @@ Then I added one thing the paper doesn't measure. I replayed every query against
 
 My favorite finding: the cache hits are cheap queries repeated within seconds, but the savings come from expensive queries repeated hours apart. A short timeout keeps almost all the hits and loses 40% of the savings.
 
-Full write-up (7 pages, with the methodology, all the plots and every place I disagree with the paper) attached below. The code is on GitHub. Thanks to the authors for releasing the data, it's rare and it's what made this possible.
+Full write-up (7 pages, with the methodology, all the plots and every place I disagree with the paper) attached below. Code: https://github.com/sasukeaizen7/redset-replication Thanks to the authors for releasing the data, it's rare and it's what made this possible.
 
 #DataEngineering #Databases #DuckDB #SQL #Research
