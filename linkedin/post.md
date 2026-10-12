@@ -12,7 +12,7 @@ First one: the result cache looked completely unused. 0% of select queries serve
 
 Second one was sneakier: every CREATE TABLE AS SELECT gets a brand-new table id, even when it recreates "the same" table every night. So anything that tracks tables by id quietly counts thousands of tables that are really one. I had to follow the query's fingerprint instead.
 
-There were engineering lessons too. Updating 46 million rows in place ran for over an hour and I killed it. Rewriting it as a small fixed table plus a view took 7 minutes. Another query filled 92 GB of temp files and crashed before I redesigned it.
+Engineering lessons too: updating 46M rows in place ran for over an hour; a small fixed table plus a view took 7 minutes.
 
 The result: 17 claims confirmed, 7 partially, 5 not.
 - Writes take two thirds of the runtime, like in the paper.
@@ -24,6 +24,6 @@ Then I added one thing the paper doesn't measure. I replayed every query against
 
 My favorite finding: the cache hits are cheap queries repeated within seconds, but the savings come from expensive queries repeated hours apart. A short timeout keeps almost all the hits and loses 40% of the savings.
 
-Full write-up (7 pages, with the methodology, all the plots and every place I disagree with the paper) attached below. Code: https://github.com/sasukeaizen7/redset-replication Thanks to the authors for releasing the data, it's rare and it's what made this possible.
+Full write-up (7 pages, with the methodology, all the plots and every place I disagree with the paper) attached below. Code: https://github.com/sasukeaizen7/redset-replication Thanks to the authors for releasing the data.
 
 #DataEngineering #Databases #DuckDB #SQL #Research
